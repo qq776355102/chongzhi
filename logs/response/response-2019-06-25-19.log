@@ -1,0 +1,115 @@
+[2019-06-25 19:30:49.089] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2019-06-25 19:31:20.362] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2019-06-25 19:31:28.598] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"这是根目录/"
+*************** response log end ***************
+
+[2019-06-25 19:31:29.457] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2019-06-25 19:48:51.820] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 139
+response status: 200
+response body: 
+{"status":1,"info":"","data":{"userId":1,"address":"0x6fac4d18c912343bf86fa7049364dd4e424ab9c0","symbol":""}}
+*************** response log end ***************
+
+[2019-06-25 19:49:37.424] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 117
+response status: 200
+response body: 
+{"status":1,"info":"","data":{"userId":1,"address":"0x6fac4d18c912343bf86fa7049364dd4e424ab9c0","symbol":""}}
+*************** response log end ***************
+
+[2019-06-25 19:52:42.149] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 116
+response status: 200
+response body: 
+{"status":1,"info":"","data":{"userId":1,"address":"0x6fac4d18c912343bf86fa7049364dd4e424ab9c0","symbol":""}}
+*************** response log end ***************
+
+[2019-06-25 19:54:13.241] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 138
+response status: 200
+response body: 
+{"status":1,"info":"","data":{"userId":1,"address":"0x6fac4d18c912343bf86fa7049364dd4e424ab9c0","symbol":""}}
+*************** response log end ***************
+
+[2019-06-25 19:55:09.611] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 196
+response status: 200
+response body: 
+{"status":1,"info":"","data":{"userId":1,"address":"0x6fac4d18c912343bf86fa7049364dd4e424ab9c0","symbol":""}}
+*************** response log end ***************
+

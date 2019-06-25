@@ -1,0 +1,318 @@
+[2019-06-25 19:30:43.298] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request query:  {"userId":"1","coinType":"usdt"}
+response time: 5
+err name: TypeError
+err message: address.getAdress is not a function
+err stack: TypeError: address.getAdress is not a function
+    at index.getAdress (D:\充值\chongzhi-master\controller\index.js:176:24)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\充值\chongzhi-master\app.js:46:9)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+*************** error log end ***************
+
+[2019-06-25 19:32:24.411] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 4
+err name: TypeError
+err message: address.getAdress is not a function
+err stack: TypeError: address.getAdress is not a function
+    at index.getAdress (D:\充值\chongzhi-master\controller\index.js:176:24)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\充值\chongzhi-master\app.js:46:9)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+*************** error log end ***************
+
+[2019-06-25 19:33:40.846] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 3
+err name: Error
+err message: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+err stack: Error: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+    at typeforce (D:\充值\chongzhi-master\node_modules\typeforce\index.js:235:11)
+    at HDNode.derivePath (D:\充值\chongzhi-master\node_modules\coinjs-lib\src\hdnode.js:217:5)
+    at getAddress (D:\充值\chongzhi-master\sk\address\index.js:60:30)
+    at index.getAdress (D:\充值\chongzhi-master\controller\index.js:176:16)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+*************** error log end ***************
+
+[2019-06-25 19:35:33.207] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 2
+err name: SyntaxError
+err message: Unexpected token o in JSON at position 1
+err stack: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at index.getAdress (D:\充值\chongzhi-master\controller\index.js:174:22)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\充值\chongzhi-master\app.js:46:9)
+*************** error log end ***************
+
+[2019-06-25 19:38:59.139] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 5
+err name: Error
+err message: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+err stack: Error: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+    at typeforce (D:\充值\chongzhi-master\node_modules\typeforce\index.js:235:11)
+    at HDNode.derivePath (D:\充值\chongzhi-master\node_modules\coinjs-lib\src\hdnode.js:217:5)
+    at getAddress (D:\充值\chongzhi-master\sk\address\index.js:60:30)
+    at index.getAdress (D:\充值\chongzhi-master\controller\index.js:177:16)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+*************** error log end ***************
+
+[2019-06-25 19:42:29.512] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 72686
+err name: Error
+err message: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+err stack: Error: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+    at typeforce (d:\充值\chongzhi-master\node_modules\typeforce\index.js:235:11)
+    at HDNode.derivePath (d:\充值\chongzhi-master\node_modules\coinjs-lib\src\hdnode.js:217:5)
+    at getAddress (d:\充值\chongzhi-master\sk\address\index.js:60:30)
+    at index.getAdress (d:\充值\chongzhi-master\controller\index.js:177:16)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+*************** error log end ***************
+
+[2019-06-25 19:44:54.866] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 51687
+err name: Error
+err message: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+err stack: Error: Expected BIP32 derivation path, got String "m/44'/60'/NaN'/0/NaN"
+    at typeforce (d:\充值\chongzhi-master\node_modules\typeforce\index.js:235:11)
+    at HDNode.derivePath (d:\充值\chongzhi-master\node_modules\coinjs-lib\src\hdnode.js:217:5)
+    at getAddress (d:\充值\chongzhi-master\sk\address\index.js:60:30)
+    at index.getAdress (d:\充值\chongzhi-master\controller\index.js:177:16)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+*************** error log end ***************
+
+[2019-06-25 19:46:00.467] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 8497
+err name: SyntaxError
+err message: Unexpected token o in JSON at position 1
+err stack: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at index.getAdress (d:\充值\chongzhi-master\controller\index.js:175:23)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+    at app.use (d:\充值\chongzhi-master\app.js:46:9)
+*************** error log end ***************
+
+[2019-06-25 19:46:25.106] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 1
+err name: SyntaxError
+err message: Unexpected token o in JSON at position 1
+err stack: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at index.getAdress (d:\充值\chongzhi-master\controller\index.js:175:23)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+    at app.use (d:\充值\chongzhi-master\app.js:46:9)
+*************** error log end ***************
+
+[2019-06-25 19:46:44.465] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 2
+err name: SyntaxError
+err message: Unexpected token o in JSON at position 1
+err stack: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at index.getAdress (d:\充值\chongzhi-master\controller\index.js:175:23)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (d:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+    at app.use (d:\充值\chongzhi-master\app.js:46:9)
+*************** error log end ***************
+
+[2019-06-25 19:47:02.627] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cvn/getAdress?userId=1&coinType=usdt
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":1,"coinType":"usdt"}
+response time: 4
+err name: SyntaxError
+err message: Unexpected token o in JSON at position 1
+err stack: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at index.getAdress (D:\充值\chongzhi-master\controller\index.js:175:23)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\充值\chongzhi-master\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\充值\chongzhi-master\node_modules\koa-compose\index.js:42:32)
+    at app.use (D:\充值\chongzhi-master\app.js:46:9)
+*************** error log end ***************
+
